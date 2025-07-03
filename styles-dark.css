@@ -1,0 +1,40 @@
+body.dark {--text: var(--color-dew); background: var(--color-charcoal) url('img/aa_bg.webp') center center / cover no-repeat; color: var(--text); font-family: 'Quicksand', sans-serif;}
+body.dark .dark-btn {display: block;}
+body.dark .light-btn {display: none;}
+.top-logo {position: fixed; top: 1.5rem; left: 1.5rem; width: 300px; z-index: 1000;}
+h1, h2, h3, h4, h5, h6 {color: var(--color-meadow); margin: 2.5rem 0 1rem 0;}
+p, .carousel-content, .carousel-blurb {color: var(--text);}
+.carousel-tabs .tab {color: var(--text);}
+.carousel-tabs .tab.active {background: var(--color-meadow); color: var(--color-charcoal);}
+.selector-btn {color: var(--text); padding: 1rem 1.5rem 1rem 2.5rem; border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2.5rem), calc(100% - 2.5rem) 100%, 0 100%); transition: all 0.22s cubic-bezier(.4,1.4,.6,1);}
+.selector-btn:focus, .selector-btn:active {border-radius: 0;}
+.selector-btn.active {background: var(--color-meadow); color: var(--color-charcoal);}
+.selector-btn:hover {background: rgba(157,208,139,0.12); transform: scale(1.08); z-index: 1;}
+.content-blurb {color: var(--text);}
+.mockup-panel {display: flex; align-items: center; justify-content: flex-start; height: 100vh; background: none; padding: 1rem 0 2rem 0; overflow: visible;}
+.mockup-img {width: 175%; max-width: none; max-height: 95vh; object-fit: contain; border-radius: 1.5rem; animation: slideInFromRight 1.2s ease-out; position: relative; left: -23vw;}
+.content-panel {display: flex; align-items: center; justify-content: center; padding: 1.5rem 15rem 1.5rem 0.5rem;}
+.sun-corner {position: fixed; bottom: 1.5rem; right: 1.5rem; color: var(--color-dew); font-size: 2.2rem; z-index: 9000; transition: transform 0.2s cubic-bezier(.4,1.4,.6,1);}
+.sun-corner:hover {transform: scale(1.25);}
+
+@media (max-width: 900px) {
+  .main-grid {grid-template-columns: 1fr;}
+  .selector-panel {display: none;}
+  .mockup-panel {display: none;}
+  .content-panel {padding: 2rem;}
+  .mobile-header {display: flex; flex-direction: column; align-items: center; margin-bottom: 1rem;}
+  .top-logo {display: block; margin: 2.5rem auto 0.5rem auto; position: static;}
+  .mobile-tabs {display: flex; justify-content: center; gap: 1.2rem; margin-bottom: 0rem;}
+  .tab-btn {background: none; border: none; font-size: 1.7rem; color: var(--color-meadow); padding: 0rem; cursor: pointer;}
+  .tab-btn.active, .tab-btn:focus {color: var(--color-verdant);}
+  .mobile-scroll {font-size: 0.7rem; max-height: 60vh; overflow-y: auto; padding-top: 0.2rem; margin-bottom: 0;}
+  .mobile-download {position: fixed; left: 50%; bottom: 1.2rem; transform: translateX(-50%); display: flex; gap: 0.7rem; z-index: 2000;}
+  .app-store-btn, .google-play-btn {width: 145px;}
+  .mobile-mockup {position: fixed; left: 0; right: 0; bottom: 0.5rem; z-index: 1000; display: flex; justify-content: center; align-items: flex-end; margin: 0; height: auto;}
+  .mockup-img {width: 90vw; max-width: 340px; left: 0; object-fit: contain; align-self: flex-end;}
+}
+
+@media (min-width: 901px) {
+  .top-logo {width: 400px;}
+  .mobile-header, .mobile-tabs { display: none !important; }
+}

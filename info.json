@@ -1,0 +1,92 @@
+{
+  "brainTrainingAreas": [
+    {
+      "id": "memory",
+      "icon": "fas fa-memory",
+      "ability": "Memory Formation",
+      "brainArea": "Hippocampus",
+      "description": "Strengthens episodic memory, spatial navigation, and pattern recognition through maze navigation and sequence recall.",
+      "skills": ["Episodic Memory", "Spatial Navigation", "Pattern Recognition", "Associative Learning"]
+    },
+    {
+      "id": "attention",
+      "icon": "fas fa-bullseye",
+      "ability": "Attention Control",
+      "brainArea": "Prefrontal Cortex",
+      "description": "Enhances sustained attention, selective focus, and cognitive control through distraction filtering and target tracking.",
+      "skills": ["Sustained Attention", "Selective Focus", "Cognitive Control", "Inhibition"]
+    },
+    {
+      "id": "problem-solving",
+      "icon": "fas fa-puzzle-piece",
+      "ability": "Problem Solving",
+      "brainArea": "Parietal Lobe",
+      "description": "Develops logical reasoning, spatial awareness, and analytical thinking through puzzle-solving and pattern analysis.",
+      "skills": ["Logical Reasoning", "Spatial Awareness", "Analytical Thinking", "Pattern Analysis"]
+    },
+    {
+      "id": "visual-processing",
+      "icon": "fas fa-eye",
+      "ability": "Visual Processing",
+      "brainArea": "Occipital Lobe",
+      "description": "Improves visual-spatial skills, object recognition, and visual memory through shape manipulation and visual puzzles.",
+      "skills": ["Visual-Spatial Skills", "Object Recognition", "Visual Memory", "Depth Perception"]
+    },
+    {
+      "id": "language",
+      "icon": "fas fa-language",
+      "ability": "Language Processing",
+      "brainArea": "Temporal Lobe",
+      "description": "Enhances verbal fluency, comprehension, and linguistic processing through word games and language challenges.",
+      "skills": ["Verbal Fluency", "Language Comprehension", "Semantic Processing", "Phonological Awareness"]
+    },
+    {
+      "id": "processing-speed",
+      "icon": "fas fa-bolt",
+      "ability": "Processing Speed",
+      "brainArea": "Basal Ganglia",
+      "description": "Accelerates cognitive processing, reaction time, and motor coordination through rapid decision-making tasks.",
+      "skills": ["Processing Speed", "Reaction Time", "Motor Coordination", "Automatic Processing"]
+    },
+    {
+      "id": "executive-function",
+      "icon": "fas fa-chess",
+      "ability": "Executive Function",
+      "brainArea": "Frontal Lobe",
+      "description": "Strengthens planning, decision-making, and cognitive flexibility through strategic games and complex tasks.",
+      "skills": ["Planning & Organization", "Decision Making", "Cognitive Flexibility", "Working Memory"]
+    },
+    {
+      "id": "motor-control",
+      "icon": "fas fa-running",
+      "ability": "Motor Control",
+      "brainArea": "Cerebellum",
+      "description": "Improves fine motor skills, balance, and coordination through precision-based movement challenges.",
+      "skills": ["Fine Motor Skills", "Balance & Coordination", "Timing Precision", "Motor Learning"]
+    },
+    {
+      "id": "emotional-regulation",
+      "icon": "fas fa-heart",
+      "ability": "Emotional Regulation",
+      "brainArea": "Limbic System",
+      "description": "Develops emotional intelligence, social skills, and stress management through cooperative and empathy-based activities.",
+      "skills": ["Emotional Intelligence", "Social Skills", "Stress Management", "Empathy Development"]
+    },
+    {
+      "id": "logical-reasoning",
+      "icon": "fas fa-calculator",
+      "ability": "Logical Reasoning",
+      "brainArea": "Left Hemisphere",
+      "description": "Enhances mathematical thinking, analytical reasoning, and sequential processing through logic-based challenges.",
+      "skills": ["Mathematical Thinking", "Analytical Reasoning", "Sequential Processing", "Numerical Fluency"]
+    },
+    {
+      "id": "creative-thinking",
+      "icon": "fas fa-lightbulb",
+      "ability": "Creative Thinking",
+      "brainArea": "Right Hemisphere",
+      "description": "Fosters creative problem-solving, divergent thinking, and artistic expression through open-ended challenges.",
+      "skills": ["Creative Problem-Solving", "Divergent Thinking", "Artistic Expression", "Intuitive Reasoning"]
+    }
+  ]
+} 
